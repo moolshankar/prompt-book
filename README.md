@@ -79,3 +79,40 @@ Now generate ACTUAL_GENERATION_REQUEST.
 
 ```
 
+## Techniques of Prompting
+
+### Zero-shot Prompting
+
+Zero-shot prompting is a prompting technique that involves generating text without any training on the specific task at hand.
+
+Prompt (Classification):
+<pre>
+  Classify the following text as either a review of a Chinese restaurant or a review of an Italian restaurant.
+
+  "I had the most amazing pasta at this restaurant. The sauce was perfectly seasoned and the noodles were cooked to perfection."
+</pre>
+
+Output:
+<pre>
+  The following text is a review of an Italian restaurant.
+</pre>
+
+Prompt (Information extraction):
+<pre>
+  Extract the keywords/key phrases from the following email:
+
+  Dear John,
+  
+  Please note that the marketing team will be meeting tomorrow at noon to discuss the Q3 plans. We will be creating our to-dos and assigning priorities. You are responsible for taking the meeting notes, so please make sure to attend.
+  
+  Regards,
+  
+  Manager Ken
+</pre>
+
+Output:
+<pre>
+  Keywords/key phrases: John, marketing team, meeting, tomorrow, noon, Q3 plans, to-dos, assigning priorities, meeting notes, attend, Manager.
+</pre>
+
+
