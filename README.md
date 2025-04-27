@@ -172,7 +172,9 @@ Therefore, there are 18 people working in the store.
 </pre>
 
 Prompt (CoT with few-shot prompting):
-Some problems can be more advanced, we can give the model a few example shots so that it can understand how to break down the problem
+
+Some problems can be more advanced, we can give the model a few example shots so that it can understand how to break down the problem.
+
 <pre>
 Q: There are 3 managers working in the store. Each manager has a team of 4 workers. There are also 2 marketing agents and 1 sales representative. How many people are working in the store?
 A: The number of managers is 3. The number of workers is 3 * 4, which is 12. The number of marketing agents is 2. The number of sales representatives is 1. So the total number of people working in the clinic is 3 + 12 + 2 + 1, which is 18.
