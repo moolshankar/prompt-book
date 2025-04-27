@@ -3,26 +3,39 @@
 ## Types of prompts
 
 ### Text summarization
+<pre>
 Generate a brief summary for the following text
+</pre>
 
 ### Information extraction
+<pre>
 Identify the dates and corresponding events in a list from the text above.
+</pre>
 
 ### Question and answers
+<pre>
 Name top 10 countries in world by GDP?
+</pre>
 
 ### Text classification
+<pre>
 Classify the following text into positive, negative, or neutral sentiment.
 
 We can do much more with classification, for example, spam detection, topic classification, intent classification, and more.
+</pre>
 
 ### Translation
+<pre>
 Translate the following source text from German to English.
+</pre>
 
 ### Code generation
+<pre>
 Write a function that uses the bubble sort algorithm to sort a list of integers in ascending order.
+</pre>
 
 ### Reasoning
+<pre>
 One of the most challenging tasks for an LLM is the requirement of reasoning. Reasoning is a fascinating area as it allows for complex applications to arise from LLMs. 
 It's worth noting that to achieve satisfying results for reasoning tasks, we need to use advanced prompting techniques.
 
@@ -48,4 +61,5 @@ The odd numbers in the group are 15, 5, 13, 7, and 1.
 The sum of the odd numbers is 41.
 41 is an odd number.
 "
+</pre>
 
