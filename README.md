@@ -115,4 +115,23 @@ Output:
   Keywords/key phrases: John, marketing team, meeting, tomorrow, noon, Q3 plans, to-dos, assigning priorities, meeting notes, attend, Manager.
 </pre>
 
+### Few-shot Prompting
+
+Few-shot prompting is a technique in which a model is trained to perform a specific task with limited or few training examples, also called shots, typically in the range of 1–10.
+
+Prompt (With few examples first, that will help model develop a context):
+<pre>
+  This product is amazing! It exceeded my expectations. // positive
+  I love this restaurant. The food is delicious and the service is excellent. // positive
+  The customer support was terrible. They were unresponsive and rude. // negative
+  
+  I'm very disappointed with the quality of the food. //
+</pre>
+
+Output:
+<pre>
+  negative
+</pre>
+
+
 
