@@ -63,3 +63,19 @@ The sum of the odd numbers is 41.
 "
 </pre>
 
+## Template for common generation request
+<pre>
+  Role: "I want you to act as a ROLE_WITH_SPECIFIED_SKILLS"
+  Goal: "Your goal is CRITERIA_FOR_OUTPUT"
+  Reference: "You should take reference from ANY_REFERENCE_RESOURCE"
+  Request: "Now generate ACTUAL_GENERATION_REQUEST"
+</pre>
+
+```
+I want you to act as a ROLE_WITH_SPECIFIED_SKILLS. Your goal is CRITERIA_FOR_OUTPUT.
+You should take reference from ANY_REFERENCE_RESOURCE.
+
+Now generate ACTUAL_GENERATION_REQUEST.
+
+```
+
